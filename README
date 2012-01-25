@@ -1,0 +1,8 @@
+Sample app to show how the CIAPI.CS fails when many threads make requests
+at the same time.
+
+To start the process, just launch the app and push the “Start” button as
+soon as it’s enabled. That button will start a one minute “thread storm”
+that should trigger the bug. This usually happens very quickly, but since
+it’s a concurrency issue, it might take you a few tries before the
+exception is thrown. Please keep pushing the button until it happens.
