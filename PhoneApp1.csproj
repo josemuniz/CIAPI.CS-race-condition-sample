@@ -65,18 +65,12 @@
     <Reference Include="StreamingClient.Phone7">
       <HintPath>libs\StreamingClient.Phone7.dll</HintPath>
     </Reference>
-    <Reference Include="StreamingClient.Phone7.Lightstreamer">
-      <HintPath>libs\StreamingClient.Phone7.Lightstreamer.dll</HintPath>
-    </Reference>
     <Reference Include="System.Windows" />
     <Reference Include="system" />
     <Reference Include="System.Core" />
     <Reference Include="System.Net" />
     <Reference Include="System.Xml" />
     <Reference Include="mscorlib.extensions" />
-    <Reference Include="WindowsPhoneClient">
-      <HintPath>libs\WindowsPhoneClient.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
