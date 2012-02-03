@@ -48,14 +48,22 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CIAPI.Phone7, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
-    <Reference Include="CityIndex.JsonClient.Phone7, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="CIAPI.Phone7">
+      <HintPath>libs\CIAPI.Phone7.dll</HintPath>
+    </Reference>
+    <Reference Include="CityIndex.JsonClient.Phone7">
+      <HintPath>libs\CityIndex.JsonClient.Phone7.dll</HintPath>
+    </Reference>
     <Reference Include="CityIndex.ReflectiveLoggingAdapter.Phone7">
       <HintPath>libs\CityIndex.ReflectiveLoggingAdapter.Phone7.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Phone" />
-    <Reference Include="Newtonsoft.Json.Silverlight, Version=3.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL" />
-    <Reference Include="StreamingClient.Phone7, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json.Silverlight">
+      <HintPath>libs\Newtonsoft.Json.Silverlight.dll</HintPath>
+    </Reference>
+    <Reference Include="StreamingClient.Phone7">
+      <HintPath>libs\StreamingClient.Phone7.dll</HintPath>
+    </Reference>
     <Reference Include="System.Windows" />
     <Reference Include="system" />
     <Reference Include="System.Core" />
